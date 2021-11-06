@@ -28,7 +28,8 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#e3aad6"
+				"foreground": "#e3aad6",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -55,10 +56,22 @@
 			"scope": [
 				"keyword",
 				"storage.type",
-				"storage.modifier"
+				"keyword.other.unit",
+				"keyword.other"
+				
 			],
 			"settings": {
-				"foreground": "#ff8c94"
+				"foreground": "#daddfb"
+			}
+		},
+		{
+			"name": "Storage modifier",
+			"scope": [
+				"storage.modifier",
+				"storage.type.modifier.access.control"
+			],
+			"settings": {
+				"foreground": "#93dfb8",
 			}
 		},
 		{
@@ -75,7 +88,8 @@
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.other.substitution",
+				"storage.modifier.pointer"
 			],
 			"settings": {
 				"foreground": "#daddfb"
@@ -102,7 +116,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#e3aad6"
+				"foreground": "#93dfb8"
 			}
 		},
 		{
@@ -127,22 +141,23 @@
 		{
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
-				"constant.numeric",
 				"constant.language",
 				"support.constant",
 				"constant.character",
 				"constant.escape",
 				"variable.parameter",
-				"keyword.other.unit",
-				"keyword.other"
+				"entity.name.namespace",
+				"punctuation.separator",
+				"punctuation.section"
 			],
 			"settings": {
-				"foreground": "#ffabab"
+				"foreground": "#ffedc9"
 			}
 		},
 		{
 			"name": "String, Symbols, Inherited Class, Markup Heading",
 			"scope": [
+				"constant.numeric",
 				"string",
 				"constant.other.symbol",
 				"constant.other.key",
@@ -153,6 +168,17 @@
 			],
 			"settings": {
 				"foreground": "#ffabab"
+			}
+		},
+		{
+			"name": "Preprocessor",
+			"scope":
+			[
+				"entity.name.function.preprocessor"
+			],
+			"settings":
+			{
+				"foreground": "#ff5151"
 			}
 		},
 		{
