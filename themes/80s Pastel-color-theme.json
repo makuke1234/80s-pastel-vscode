@@ -89,7 +89,8 @@
 				"punctuation.section.embedded",
 				"keyword.other.template",
 				"keyword.other.substitution",
-				"storage.modifier.pointer"
+				"storage.modifier.pointer",
+				"storage.modifier.reference"
 			],
 			"settings": {
 				"foreground": "#daddfb"
