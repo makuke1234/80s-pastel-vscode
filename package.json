@@ -3,12 +3,23 @@
     "displayName": "80s-pastel",
     "description": "A colorful tribute to the 80's <3",
     "version": "0.0.1",
+	"publisher": "Maku Maku",
     "engines": {
         "vscode": "^1.62.0"
     },
     "categories": [
         "Themes"
     ],
+	"keywords": [
+		"theme",
+		"pastel",
+		"80s",
+		"80s pastel",
+		"80s theme",
+		"80s vscode",
+		"80s atom",
+		"80s pastel atom"
+	],
     "contributes": {
         "themes": [
             {
@@ -17,5 +28,11 @@
                 "path": "./themes/80s Pastel-color-theme.json"
             }
         ]
-    }
+    },
+	"license": "MIT License",
+	"repository": {
+		"type": "git",
+		"directory": "https://github.com/makuke1234/80s-pastel-vscode.git"
+	},
+	"homepage": "https://github.com/makuke1234/80s-pastel-vscode/blob/master/README.md"
 }
