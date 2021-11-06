@@ -5,10 +5,11 @@ class Student
 {
 private:
 	std::string m_name;
-	std::uint8_t m_age;
+	std::uint32_t m_age{ 0 };
 
 public:
-	Student(const std::string & name, std::uint8_t age)
+	Student() noexcept = default;
+	Student(const std::string & name, std::uint32_t age)
 		: m_name(name), m_age(age)
 	{}
 
@@ -16,7 +17,7 @@ public:
 	{
 		return this->m_name;
 	}
-	[[nodiscard]] std::uint8_t & age() noexcept
+	[[nodiscard]] std::uint32_t & age() noexcept
 	{
 		return this->m_age;
 	}
@@ -38,7 +39,7 @@ int main()
 	{
 		std::cout << "Seems like you are ready for school.\n";
 	}
-	else if (stuf.age() > 2)
+	else if (stud.age() > 2)
 	{
 		std::cout << "Kindergarten is on the way...\n";
 	}
