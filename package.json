@@ -2,7 +2,7 @@
     "name": "80s-pastel",
     "displayName": "80s-pastel",
     "description": "A colorful tribute to the 80's <3",
-    "version": "0.0.1",
+    "version": "0.0.2",
 	"publisher": "makuke1234",
     "engines": {
         "vscode": "^1.62.0"

@@ -3,7 +3,7 @@
  */
 #include <iostream>
 
-int main()
+int main(int argc, char ** argv)
 {
 	for (int number = 0; number <= 100; ++number)
 	{
